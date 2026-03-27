@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const TEAM = [
   { name: "Dr. Yaser Taufik Syamlan", role: "Ketua Tim", affiliation: "Universitas Tazkia", bg: "linear-gradient(135deg, #1a5632, #2d9464)" },
-  { name: "MS. Hadianto, SE, Ak, MM", role: "Tech & AI Lead", affiliation: "github.com/mshadianto", bg: "linear-gradient(135deg, #133d22, #22714a)" },
+  { name: "M. Sopian Hadianto, SE, Ak, MM", role: "Tech & AI Lead", affiliation: "Badan Pengelola Keuangan Haji · github.com/mshadianto", bg: "linear-gradient(135deg, #133d22, #22714a)" },
   { name: "H. Aa, Lc.M.Pd.I, CWC", role: "Sharia Compliance", affiliation: "Wakil Sekretaris ANWI, Asesor BWI Pusat", bg: "linear-gradient(135deg, #8a6d2b, #c9a84c)" },
   { name: "Ronal Rulindo, PhD", role: "Research Lead", affiliation: "Academic Research", bg: "linear-gradient(135deg, #0d5445, #1a8a6e)" },
   { name: "M. Ichsan Junaedi", role: "Engineer", affiliation: "github.com/IchsanJunaediDev", bg: "linear-gradient(135deg, #5c4a1e, #a5832f)" },
