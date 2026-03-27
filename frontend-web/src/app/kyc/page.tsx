@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 type Step = 0 | 1 | 2 | 3;
 
@@ -356,12 +357,12 @@ export default function KYCPage() {
               </div>
 
               <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
-                <a href="/assets" className="btn btn-primary">
+                <Link href="/assets" className="btn btn-primary">
                   Mulai Berwakaf
-                </a>
-                <a href="/dashboard" className="btn btn-outline">
+                </Link>
+                <Link href="/dashboard" className="btn btn-outline">
                   Lihat Portofolio
-                </a>
+                </Link>
               </div>
             </div>
           )}
