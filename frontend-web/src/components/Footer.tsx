@@ -72,8 +72,8 @@ export default function Footer() {
           <div>
             <h4 style={{ color: "var(--gold-400)", fontSize: "0.8rem", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 16, fontFamily: "var(--font-body)" }}>Kontak</h4>
             <div style={{ display: "flex", flexDirection: "column", gap: 10, fontSize: "0.85rem" }}>
-              <span>info@waqfi.id</span>
-              <span>+62 21 555 0123</span>
+              <span>Lppm@tazkia.ac.id</span>
+              <span>0811-1000-8252</span>
               <span>Jakarta, Indonesia</span>
             </div>
           </div>
