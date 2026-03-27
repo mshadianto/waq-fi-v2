@@ -1,0 +1,26 @@
+{
+  "name": "waqfi-api-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0",
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.0",
+    "winston": "^3.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
