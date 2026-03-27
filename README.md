@@ -422,6 +422,14 @@ waq-fi_v2/
 
 <br>
 
+## Kontak
+
+```
+Email       Lppm@tazkia.ac.id
+Telepon     0811-1000-8252
+Institusi   Universitas Tazkia
+```
+
 ---
 
 <div align="center">
