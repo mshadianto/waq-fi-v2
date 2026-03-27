@@ -4,11 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 
 const TEAM = [
-  { name: "Dr. Yaser Taufik Syamlan", role: "Ketua Tim", affiliation: "Universitas Tazkia", bg: "linear-gradient(135deg, #1a5632, #2d9464)" },
-  { name: "M. Sopian Hadianto, SE, Ak, MM", role: "Tech & AI Lead", affiliation: "Badan Pengelola Keuangan Haji · github.com/mshadianto", bg: "linear-gradient(135deg, #133d22, #22714a)" },
-  { name: "H. Aa, Lc.M.Pd.I, CWC", role: "Sharia Compliance", affiliation: "Wakil Sekretaris ANWI, Asesor BWI Pusat", bg: "linear-gradient(135deg, #8a6d2b, #c9a84c)" },
-  { name: "Ronal Rulindo, PhD", role: "Research Lead", affiliation: "Academic Research", bg: "linear-gradient(135deg, #0d5445, #1a8a6e)" },
-  { name: "M. Ichsan Junaedi", role: "Engineer", affiliation: "github.com/IchsanJunaediDev", bg: "linear-gradient(135deg, #5c4a1e, #a5832f)" },
+  { name: "Dr. Yaser Taufik Syamlan", initials: "YT", role: "Ketua Tim", affiliation: "Universitas Tazkia", bg: "linear-gradient(135deg, #1a5632, #2d9464)" },
+  { name: "M. Sopian Hadianto, SE, Ak, MM", initials: "MS", role: "Tech & AI Lead", affiliation: "Badan Pengelola Keuangan Haji · github.com/mshadianto", bg: "linear-gradient(135deg, #133d22, #22714a)" },
+  { name: "H. Aa, Lc.M.Pd.I, CWC", initials: "AA", role: "Sharia Compliance", affiliation: "Wakil Sekretaris ANWI, Asesor BWI Pusat", bg: "linear-gradient(135deg, #8a6d2b, #c9a84c)" },
+  { name: "Ronal Rulindo, PhD", initials: "RR", role: "Research Lead", affiliation: "Academic Research", bg: "linear-gradient(135deg, #0d5445, #1a8a6e)" },
+  { name: "M. Ichsan Junaedi", initials: "MI", role: "Engineer", affiliation: "github.com/IchsanJunaediDev", bg: "linear-gradient(135deg, #5c4a1e, #a5832f)" },
 ];
 
 const PARTNERS = [
@@ -192,7 +192,7 @@ export default function AboutPage() {
                   fontWeight: 700,
                   letterSpacing: "-0.02em",
                 }}>
-                  {member.name.replace(/^(Dr\.|H\.|MS\.|M\.)\s*/i, "").split(/[\s,]+/).filter(n => n.length > 1 && !n.includes(".")).slice(0, 2).map(n => n[0]).join("")}
+                  {member.initials}
                 </div>
                 <h3 style={{ fontSize: "0.92rem", fontWeight: 600, marginBottom: 4, fontFamily: "var(--font-body)", lineHeight: 1.3 }}>
                   {member.name}
