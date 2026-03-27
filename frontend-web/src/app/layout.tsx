@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "WaqFi — Tokenized Waqf Platform",
   description:
-    "Fractionalised waqf asset participation starting from Rp 10.000. DSN-MUI compliant.",
+    "Platform wakaf tokenisasi pertama di Indonesia. Partisipasi mikro mulai dari Rp 10.000. Sesuai DSN-MUI, transparan di blockchain Polygon.",
 };
 
 export default function RootLayout({
@@ -13,8 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body style={{ margin: 0, fontFamily: "system-ui, sans-serif", background: "#f8f9fa" }}>
+      <body>
+        <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
